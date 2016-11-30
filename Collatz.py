@@ -1,12 +1,7 @@
 # -*- coding:UTF-8 -*-
 
-num = raw_input('>>>')
-try:
-    int(num)
-except ValueError:
-    print '请输入一个整数'
-finally:
-    
+num = float(raw_input('>>>'))
+int(num)
 while num != 1:
     if num % 2 == 0:    #num是偶数
         num = num / 2
